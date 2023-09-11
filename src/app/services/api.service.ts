@@ -7,7 +7,7 @@ import { UserSchema } from '../modules/users/users.model';
 })
 export class ApiService {
 
-  base_url:string="http://localhost:3000"
+  base_url:string="https://employee-portal-x9en.onrender.com"
 
   constructor(private http:HttpClient) { }
 
