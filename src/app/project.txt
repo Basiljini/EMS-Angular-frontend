@@ -1,0 +1,29 @@
+Employee Portal-user management
+
+
+            1.Features
+                -Login page-(username,password,login button)-admin
+                -Home page-admin dashboard
+                -Users list page-(new user button,display users details as table)
+                    -table should contains
+                        -(user id,username,status,email,action(edit/delete))
+                -users add page-(user id,username,email,status(dropdown:active,inactive)),buton for cancel(clear the form) 
+                    and save(add user to userlist)
+                -users edit page-same as add users
+            2.Components - 5 components
+            3.Modules - 2 Modules
+                -appModule : login component
+                -userModule : users list component,users add component,users edit component
+            4.setup path for each component
+            5.Design the component
+
+            6.creating a JSON server for employee Portal
+               Create a seperate folder outside angular folder for serverside
+                 To create a JSON server
+                  {
+                    >npm init -y(creating package.json file)
+                    >npm i json-server (install json server)
+
+                    create .gitignore
+                    create entry file index.js
+                  }
